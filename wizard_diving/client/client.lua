@@ -88,7 +88,7 @@ function GearAnim()
     TaskPlayAnim(GetPlayerPed(-1), "clothingshirt", "try_shirt_positive_d", 8.0, 1.0, -1, 49, 0, 0, 0, 0)
 end
 
-local expectedResourceName = "wizard_rdiving"
+local expectedResourceName = "wizard_diving"
 local currentResourceName = GetCurrentResourceName()
 if currentResourceName ~= expectedResourceName then
 print("^1Resource renamed! Change it as it was! |wizard_diving|^0")
